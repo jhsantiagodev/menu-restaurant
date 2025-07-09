@@ -7,6 +7,7 @@ import { About } from "./components/About";
 import { Art } from "./components/Art";
 import { Menu } from "./components/Menu";
 import { UserProvider } from "./context/user.contex";
+import { Contact } from "./components/Contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Art />
         <Menu />
+        <Contact />
       </main>
     </UserProvider>
   );

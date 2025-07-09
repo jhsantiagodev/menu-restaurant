@@ -169,6 +169,16 @@ const allCocktails = [
   },
 ];
 
+const infoContact = [
+  {
+    title: "Visit Our Bar",
+    address: "456, Raq Av. #404, Los Angeles, CA 90210",
+    contact: "Contact us",
+    phone: "(555) 987 - 6543",
+    email: "cocktail@gmail.com",
+  },
+];
+
 export {
   navLinks,
   cocktailLists,
@@ -180,4 +190,5 @@ export {
   storeInfo,
   socials,
   allCocktails,
+  infoContact,
 };
